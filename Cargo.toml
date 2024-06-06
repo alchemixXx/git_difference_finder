@@ -1,0 +1,16 @@
+[package]
+name = "difference_finder"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+toml = "0.8.8"
+serde = "1.0.136"
+serde_derive = "1.0.136"
+serde_json = "1.0.68"
+clap = { version = "4.5.1", features = ["derive"] }
+log = "0.4.21"
+env_logger = "0.11.3"
+
